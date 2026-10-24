@@ -1,0 +1,4139 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>॥ जय श्री राम ॥ | रामलीला महोत्सव 2026 | गनवारा, आजमगढ़</title>
+
+    <meta name="description"
+        content="श्री दुर्गा पूजा व रामजानकी रामलीला समिति, गनवारा, आजमगढ़ द्वारा आयोजित रामलीला महोत्सव 2026। 11 अक्टूबर से 21 अक्टूबर 2026। परिवार सहित सादर आमंत्रित।">
+
+    <meta name="theme-color" content="#7a240d">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* =========================================================
+   BHAGWA ROYAL RAMAYAN
+========================================================= */
+
+        :root {
+            --bg: #080605;
+            --bg2: #110806;
+            --bg3: #1c0b06;
+
+            --bhagwa: #e65f16;
+            --bhagwa2: #ff7a1a;
+            --bhagwa3: #ff9d45;
+
+            --deep: #731d0c;
+            --deep2: #431006;
+
+            --gold: #d8a43d;
+            --gold2: #efc764;
+            --gold3: #ffe9a8;
+
+            --cream: #fff0d2;
+            --text: #dbcab1;
+            --muted: #9b8975;
+
+            --border: rgba(239, 177, 72, .25);
+
+            --serif: "Playfair Display", serif;
+            --dev: "Noto Sans Devanagari", sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--dev);
+            color: var(--cream);
+            background:
+                radial-gradient(circle at 50% -10%,
+                    rgba(239, 102, 21, .20),
+                    transparent 32%),
+                radial-gradient(circle at 10% 40%,
+                    rgba(131, 30, 8, .13),
+                    transparent 30%),
+                linear-gradient(180deg,
+                    #070504,
+                    #0d0705 40%,
+                    #190a05 75%,
+                    #050303);
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            z-index: 999;
+            pointer-events: none;
+            opacity: .035;
+            background-image:
+                radial-gradient(circle, #fff 0 1px, transparent 1px);
+            background-size: 100px 100px;
+        }
+
+        ::selection {
+            background: var(--bhagwa);
+            color: white;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+        /* =========================================================
+   LOADER
+========================================================= */
+
+        .loader {
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background:
+                radial-gradient(circle,
+                    #6b230d 0%,
+                    #210a04 35%,
+                    #050303 75%);
+            transition: .8s;
+        }
+
+        .loader.hide {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader-om {
+            font-size: 80px;
+            color: #ffd978;
+            text-shadow:
+                0 0 15px #ff9b2f,
+                0 0 45px rgba(255, 104, 19, .6),
+                0 0 90px rgba(255, 69, 0, .25);
+            animation: om 2s infinite ease-in-out;
+        }
+
+        .loader-title {
+            margin-top: 10px;
+            font-family: var(--serif);
+            color: #ffe4a3;
+            font-size: 22px;
+        }
+
+        .loader-line {
+            width: 180px;
+            height: 2px;
+            background: rgba(255, 255, 255, .1);
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        .loader-line::after {
+            content: "";
+            display: block;
+            width: 50%;
+            height: 100%;
+            background:
+                linear-gradient(90deg,
+                    transparent,
+                    #ffe49c,
+                    transparent);
+            animation: loadline 1.3s infinite;
+        }
+
+        @keyframes om {
+
+            0%,
+            100% {
+                transform: scale(1);
+                filter: brightness(1);
+            }
+
+            50% {
+                transform: scale(1.12);
+                filter: brightness(1.35);
+            }
+        }
+
+        @keyframes loadline {
+            from {
+                transform: translateX(-200%);
+            }
+
+            to {
+                transform: translateX(400%);
+            }
+        }
+
+
+        /* =========================================================
+   TOP TICKER
+========================================================= */
+
+        .ticker {
+            height: 36px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            background:
+                linear-gradient(90deg,
+                    #4a1008,
+                    #a73e0c,
+                    #6b1908,
+                    #a73e0c,
+                    #4a1008);
+            border-bottom: 1px solid rgba(255, 208, 110, .25);
+            color: #ffe6a6;
+            font-size: 12px;
+        }
+
+        .ticker-track {
+            white-space: nowrap;
+            animation: ticker 30s linear infinite;
+        }
+
+        @keyframes ticker {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+
+        /* =========================================================
+   NAV
+========================================================= */
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background:
+                rgba(15, 6, 3, .84);
+            backdrop-filter: blur(18px);
+            border-bottom:
+                1px solid rgba(239, 174, 67, .20);
+        }
+
+        .nav-inner {
+            max-width: 1280px;
+            margin: auto;
+            padding: 12px 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+        }
+
+        .logo-symbol {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            color: #ffe29a;
+            font-size: 23px;
+            border: 1px solid rgba(255, 202, 100, .45);
+            background:
+                radial-gradient(circle,
+                    rgba(239, 102, 20, .25),
+                    rgba(70, 14, 5, .2));
+            box-shadow:
+                0 0 25px rgba(255, 98, 17, .12);
+        }
+
+        .logo-text strong {
+            display: block;
+            color: #ffe5af;
+            font-size: 14px;
+        }
+
+        .logo-text span {
+            color: #a88d70;
+            font-size: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            position: relative;
+            color: #d1bda0;
+            font-size: 13px;
+            transition: .3s;
+        }
+
+        .nav-links a:hover {
+            color: #ffd978;
+        }
+
+        .nav-links a::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -8px;
+            width: 0;
+            height: 2px;
+            background:
+                linear-gradient(90deg,
+                    transparent,
+                    var(--bhagwa2),
+                    #ffe59b,
+                    transparent);
+            transform: translateX(-50%);
+            transition: .3s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .menu-btn {
+            display: none;
+            width: 42px;
+            height: 38px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: #ffd47d;
+            font-size: 20px;
+        }
+
+
+        /* =========================================================
+   HERO
+========================================================= */
+
+        .hero {
+            min-height:
+                calc(100vh - 36px);
+
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+
+            background:
+                linear-gradient(90deg,
+                    rgba(5, 3, 2, .97),
+                    rgba(20, 7, 3, .83) 38%,
+                    rgba(70, 20, 6, .42) 75%,
+                    rgba(15, 5, 2, .72)),
+                url("images/ramleela-1.jpg") center/cover no-repeat;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+
+            width: 1000px;
+            height: 1000px;
+
+            left: 50%;
+            top: -500px;
+
+            transform: translateX(-50%);
+
+            background:
+                radial-gradient(circle,
+                    rgba(255, 188, 75, .32),
+                    rgba(255, 92, 14, .13) 25%,
+                    transparent 68%);
+
+            filter: blur(10px);
+
+            animation:
+                divineSun 8s ease-in-out infinite;
+        }
+
+        @keyframes divineSun {
+
+            0%,
+            100% {
+                transform:
+                    translateX(-50%) scale(.9);
+                opacity: .55;
+            }
+
+            50% {
+                transform:
+                    translateX(-50%) scale(1.12);
+                opacity: 1;
+            }
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 45%;
+            background:
+                linear-gradient(transparent,
+                    rgba(4, 2, 1, .98));
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 5;
+
+            width: 100%;
+            max-width: 1280px;
+
+            margin: auto;
+
+            padding:
+                100px 22px 125px;
+
+            display: grid;
+            grid-template-columns:
+                1.25fr .75fr;
+
+            gap: 65px;
+
+            align-items: center;
+        }
+
+        .hero-kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+
+            color: #ffc866;
+
+            font-size: 12px;
+            letter-spacing: 2px;
+
+            margin-bottom: 20px;
+        }
+
+        .hero-kicker::before {
+            content: "";
+            width: 55px;
+            height: 2px;
+            background:
+                linear-gradient(90deg,
+                    transparent,
+                    #ff791c);
+        }
+
+        .hero h1 {
+            font-family: var(--serif);
+
+            font-size:
+                clamp(50px, 7vw, 95px);
+
+            line-height: 1.02;
+
+            letter-spacing: -2px;
+
+            color: #fff0cf;
+
+            text-shadow:
+                0 4px 0 #421307,
+                0 12px 45px rgba(0, 0, 0, .9);
+
+            animation: title 1.2s ease both;
+        }
+
+        .hero h1 span {
+            display: block;
+
+            background:
+                linear-gradient(120deg,
+                    #a83b0c,
+                    #ff8a2a,
+                    #ffe49b,
+                    #d96715,
+                    #ffca62);
+
+            background-size: 300% auto;
+
+            -webkit-background-clip: text;
+            background-clip: text;
+
+            color: transparent;
+
+            animation:
+                goldmove 6s linear infinite;
+        }
+
+        @keyframes goldmove {
+            to {
+                background-position: 300% center;
+            }
+        }
+
+        @keyframes title {
+            from {
+                opacity: 0;
+                transform: translateY(35px);
+                filter: blur(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+                filter: none;
+            }
+        }
+
+        .hero-description {
+            max-width: 690px;
+
+            margin-top: 25px;
+
+            color: #d0bda3;
+
+            font-size: 15px;
+
+            line-height: 1.9;
+        }
+
+        .hero-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+            margin-top: 25px;
+        }
+
+        .info-pill {
+            padding: 8px 13px;
+
+            color: #e8d3ad;
+
+            background:
+                rgba(104, 31, 7, .25);
+
+            border:
+                1px solid rgba(242, 166, 57, .22);
+
+            font-size: 11px;
+
+            backdrop-filter: blur(5px);
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 11px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            min-height: 44px;
+
+            padding: 11px 18px;
+
+            border: 1px solid transparent;
+
+            font-family: var(--dev);
+
+            font-size: 13px;
+
+            cursor: pointer;
+
+            transition: .3s;
+        }
+
+        .btn-bhagwa {
+            color: #fff4d9;
+            font-weight: 800;
+
+            background:
+                linear-gradient(120deg,
+                    #8e2809,
+                    #df5510,
+                    #ff8b2b,
+                    #b83908,
+                    #f2751c);
+
+            background-size: 300% auto;
+
+            box-shadow:
+                0 10px 35px rgba(225, 73, 8, .25);
+
+            animation:
+                btnshine 5s linear infinite;
+        }
+
+        @keyframes btnshine {
+            to {
+                background-position: 300%;
+            }
+        }
+
+        .btn-bhagwa:hover {
+            transform:
+                translateY(-4px) scale(1.025);
+
+            box-shadow:
+                0 0 35px rgba(255, 112, 22, .35),
+                0 15px 40px rgba(0, 0, 0, .5);
+        }
+
+        .btn-dark {
+            color: #ead9bb;
+
+            border:
+                1px solid rgba(239, 177, 72, .28);
+
+            background:
+                rgba(8, 4, 2, .35);
+        }
+
+        .btn-dark:hover {
+            color: #ffe3a0;
+            border-color: #efad46;
+
+            box-shadow:
+                0 0 25px rgba(234, 166, 61, .13);
+        }
+
+
+        /* =========================================================
+   COUNTDOWN CARD
+========================================================= */
+
+        .hero-card {
+            position: relative;
+
+            padding: 32px;
+
+            border:
+                1px solid rgba(242, 177, 72, .38);
+
+            background:
+                linear-gradient(145deg,
+                    rgba(75, 25, 7, .83),
+                    rgba(8, 6, 5, .91));
+
+            box-shadow:
+                0 25px 80px rgba(0, 0, 0, .5);
+
+            backdrop-filter: blur(18px);
+
+            animation:
+                cardglow 4s ease-in-out infinite;
+        }
+
+        .hero-card::before {
+            content: "";
+
+            position: absolute;
+            top: -1px;
+            left: 12%;
+            right: 12%;
+            height: 2px;
+
+            background:
+                linear-gradient(90deg,
+                    transparent,
+                    #ff7b20,
+                    #ffe69c,
+                    #ff7b20,
+                    transparent);
+
+            box-shadow:
+                0 0 20px rgba(255, 110, 20, .35);
+        }
+
+        @keyframes cardglow {
+
+            0%,
+            100% {
+                box-shadow:
+                    0 25px 80px rgba(0, 0, 0, .5),
+                    0 0 15px rgba(239, 130, 30, .04);
+            }
+
+            50% {
+                box-shadow:
+                    0 25px 80px rgba(0, 0, 0, .55),
+                    0 0 45px rgba(239, 130, 30, .13);
+            }
+        }
+
+        .card-label {
+            color: #f2b653;
+            font-size: 10px;
+            letter-spacing: 2px;
+        }
+
+        .card-title {
+            margin-top: 8px;
+            color: #ffe2a6;
+            font-family: var(--serif);
+            font-size: 23px;
+        }
+
+        .card-sub {
+            margin-top: 5px;
+            color: #a99478;
+            font-size: 11px;
+        }
+
+        .countdown {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 7px;
+            margin-top: 25px;
+        }
+
+        .time-box {
+            padding: 14px 4px;
+
+            text-align: center;
+
+            background:
+                linear-gradient(180deg,
+                    rgba(234, 91, 17, .09),
+                    rgba(0, 0, 0, .18));
+
+            border:
+                1px solid rgba(239, 174, 66, .18);
+
+            transition: .3s;
+        }
+
+        .time-box:hover {
+            transform: translateY(-5px);
+            border-color: #eeb65a;
+            box-shadow:
+                0 10px 30px rgba(235, 127, 26, .12);
+        }
+
+        .time-box strong {
+            display: block;
+
+            color: #ffe39b;
+
+            font-family: var(--serif);
+
+            font-size: 26px;
+
+            text-shadow:
+                0 0 20px rgba(255, 205, 100, .28);
+        }
+
+        .time-box span {
+            display: block;
+            margin-top: 3px;
+            color: #8f806d;
+            font-size: 8px;
+        }
+
+        .next-program {
+            margin-top: 20px;
+            padding-top: 18px;
+            border-top:
+                1px solid rgba(255, 255, 255, .07);
+        }
+
+        .next-program small {
+            color: #9e8d76;
+            font-size: 10px;
+        }
+
+        .next-program strong {
+            display: block;
+            margin-top: 6px;
+            color: #f2d9a9;
+            font-size: 15px;
+        }
+
+
+        /* =========================================================
+   PARTICLES / EMBERS
+========================================================= */
+
+        .ram-particle {
+            position: fixed;
+            bottom: -10px;
+
+            width: 3px;
+            height: 3px;
+
+            border-radius: 50%;
+
+            background:
+                radial-gradient(circle,
+                    #ffe6a1,
+                    #ff6c16,
+                    transparent);
+
+            box-shadow:
+                0 0 8px rgba(255, 103, 20, .5);
+
+            pointer-events: none;
+
+            z-index: 4;
+
+            animation:
+                ember linear forwards;
+        }
+
+        @keyframes ember {
+            from {
+                transform:
+                    translate3d(0, 20px, 0) scale(.4);
+                opacity: 0;
+            }
+
+            15% {
+                opacity: .9;
+            }
+
+            80% {
+                opacity: .55;
+            }
+
+            to {
+                transform:
+                    translate3d(var(--moveX), -110vh, 0) scale(1);
+                opacity: 0;
+            }
+        }
+
+
+        /* =========================================================
+   SECTIONS
+========================================================= */
+
+        .section {
+            max-width: 1280px;
+            margin: auto;
+            padding: 100px 22px;
+        }
+
+        .section-head {
+            max-width: 780px;
+            margin:
+                0 auto 55px;
+            text-align: center;
+        }
+
+        .section-kicker {
+            color: #f08029;
+            font-size: 11px;
+            letter-spacing: 2px;
+        }
+
+        .section-head h2 {
+            margin-top: 10px;
+
+            font-family: var(--serif);
+
+            font-size:
+                clamp(34px, 5vw, 55px);
+
+            color: #f9e3b5;
+
+            line-height: 1.15;
+
+            text-shadow:
+                0 8px 35px rgba(0, 0, 0, .5);
+        }
+
+        .section-head h2::before {
+            content: "॥";
+            display: block;
+            margin-bottom: 7px;
+            color: #e16c1b;
+            font-family: var(--dev);
+            font-size: 19px;
+        }
+
+        .section-head p {
+            margin-top: 15px;
+            color: #a8967d;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+
+        /* =========================================================
+   PATH
+========================================================= */
+
+        .path-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+
+        .path-card {
+            min-height: 190px;
+
+            padding: 27px 22px;
+
+            position: relative;
+
+            border:
+                1px solid rgba(237, 169, 61, .14);
+
+            background:
+                linear-gradient(145deg,
+                    rgba(101, 35, 7, .18),
+                    rgba(8, 6, 5, .35));
+
+            transition: .4s;
+        }
+
+        .path-card:hover {
+            transform: translateY(-10px);
+
+            border-color:
+                rgba(245, 179, 66, .45);
+
+            background:
+                linear-gradient(145deg,
+                    rgba(152, 49, 7, .22),
+                    rgba(10, 7, 5, .65));
+
+            box-shadow:
+                0 20px 55px rgba(0, 0, 0, .35);
+        }
+
+        .path-number {
+            color: #e96a1b;
+            font-family: var(--serif);
+            font-size: 38px;
+
+            text-shadow:
+                0 0 25px rgba(234, 91, 17, .25);
+        }
+
+        .path-card h3 {
+            margin-top: 14px;
+            color: #f0d7aa;
+            font-size: 17px;
+        }
+
+        .path-card p {
+            margin-top: 7px;
+            color: #938370;
+            font-size: 12px;
+            line-height: 1.7;
+        }
+
+
+        /* =========================================================
+   TODAY
+========================================================= */
+
+        .today-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 20px;
+        }
+
+        .today-card {
+            padding: 34px;
+
+            position: relative;
+
+            border:
+                1px solid rgba(241, 172, 59, .32);
+
+            background:
+                radial-gradient(circle at 80% 20%,
+                    rgba(238, 100, 19, .15),
+                    transparent 35%),
+                linear-gradient(125deg,
+                    rgba(104, 32, 7, .35),
+                    rgba(8, 8, 7, .9));
+
+            overflow: hidden;
+        }
+
+        .today-card::before {
+            content: "";
+
+            position: absolute;
+
+            width: 250px;
+            height: 250px;
+
+            right: -120px;
+            top: -120px;
+
+            border-radius: 50%;
+
+            background:
+                radial-gradient(circle,
+                    rgba(255, 166, 54, .17),
+                    transparent 70%);
+        }
+
+        .today-date {
+            color: #ed9d3f;
+            font-size: 12px;
+        }
+
+        .today-card h3 {
+            margin-top: 10px;
+            font-family: var(--serif);
+            font-size: 30px;
+            color: #ffe2aa;
+        }
+
+        .today-card p {
+            margin-top: 12px;
+            color: #aa987f;
+            line-height: 1.8;
+        }
+
+        .today-badge {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 7px 11px;
+
+            color: #ffc967;
+
+            border:
+                1px solid rgba(239, 165, 51, .25);
+
+            background:
+                rgba(112, 32, 6, .18);
+
+            font-size: 10px;
+        }
+
+        .today-side {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .mini-card {
+            padding: 25px;
+
+            border:
+                1px solid rgba(255, 255, 255, .06);
+
+            background:
+                rgba(255, 255, 255, .018);
+        }
+
+        .mini-card span {
+            color: #8f806e;
+            font-size: 10px;
+        }
+
+        .mini-card strong {
+            display: block;
+            margin-top: 8px;
+            color: #e4cfaa;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+
+        /* =========================================================
+   SCHEDULE
+========================================================= */
+
+        .schedule {
+            border-top:
+                1px solid rgba(255, 255, 255, .07);
+        }
+
+        .schedule-row {
+            position: relative;
+
+            display: grid;
+
+            grid-template-columns:
+                115px 1fr auto;
+
+            gap: 20px;
+
+            align-items: center;
+
+            padding: 21px 13px;
+
+            border-bottom:
+                1px solid rgba(255, 255, 255, .055);
+
+            transition: .35s;
+        }
+
+        .schedule-row::before {
+            content: "";
+
+            position: absolute;
+            left: 0;
+            top: 50%;
+
+            width: 4px;
+            height: 0;
+
+            transform: translateY(-50%);
+
+            background:
+                linear-gradient(#ff9a3d,
+                    #a63208);
+
+            box-shadow:
+                0 0 15px rgba(255, 105, 19, .4);
+
+            transition: .3s;
+        }
+
+        .schedule-row:hover {
+            transform: translateX(6px);
+
+            background:
+                linear-gradient(90deg,
+                    rgba(215, 76, 10, .07),
+                    transparent);
+        }
+
+        .schedule-row:hover::before {
+            height: 60%;
+        }
+
+        .schedule-date {
+            color: #eea74e;
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .schedule-title {
+            color: #ead5ae;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .schedule-day {
+            color: #827361;
+            font-size: 10px;
+        }
+
+
+        /* =========================================================
+   GALLERY
+========================================================= */
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(3, 1fr);
+            gap: 13px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+
+            aspect-ratio: 4/3;
+
+            background: #080605;
+
+            border:
+                1px solid rgba(239, 169, 56, .18);
+
+            cursor: pointer;
+        }
+
+        .gallery-item::after {
+            content: "";
+
+            position: absolute;
+            inset: 0;
+
+            background:
+                linear-gradient(120deg,
+                    transparent 40%,
+                    rgba(255, 210, 125, .13) 50%,
+                    transparent 60%);
+
+            transform:
+                translateX(-120%);
+
+            transition: .8s;
+        }
+
+        .gallery-item:hover::after {
+            transform:
+                translateX(120%);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            transition:
+                transform .8s,
+                filter .5s;
+
+            filter:
+                saturate(.9) contrast(1.05);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+            filter:
+                saturate(1.15) contrast(1.08);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            padding: 22px 15px 14px;
+
+            background:
+                linear-gradient(transparent,
+                    rgba(0, 0, 0, .9));
+
+            color: #f2dcae;
+            font-size: 12px;
+        }
+
+
+        /* =========================================================
+   VIDEO
+========================================================= */
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .video-card {
+            background: #090706;
+
+            border:
+                1px solid rgba(239, 169, 56, .15);
+
+            overflow: hidden;
+
+            transition: .35s;
+        }
+
+        .video-card:hover {
+            transform: translateY(-5px);
+
+            border-color:
+                rgba(239, 169, 56, .35);
+        }
+
+        .video-card video {
+            width: 100%;
+            display: block;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            background: #020202;
+        }
+
+        .video-title {
+            padding: 15px 17px;
+            color: #ddc7a0;
+            font-size: 13px;
+        }
+
+
+        /* =========================================================
+   LEGACY
+========================================================= */
+
+        .legacy {
+            background:
+                linear-gradient(90deg,
+                    #0a0503,
+                    #421306,
+                    #0a0503);
+        }
+
+        .legacy-box {
+            max-width: 920px;
+            margin: auto;
+
+            padding: 55px 25px;
+
+            text-align: center;
+
+            border:
+                1px solid rgba(239, 169, 56, .22);
+
+            background:
+                radial-gradient(circle,
+                    rgba(236, 93, 17, .08),
+                    transparent 60%);
+        }
+
+        .legacy-symbol {
+            font-size: 50px;
+            color: #f0b34e;
+
+            text-shadow:
+                0 0 30px rgba(255, 113, 22, .3);
+        }
+
+        .legacy-box h2 {
+            margin-top: 10px;
+
+            font-family: var(--serif);
+
+            color: #f3dcb0;
+
+            font-size: 32px;
+        }
+
+        .legacy-box p {
+            margin-top: 17px;
+
+            color: #aa987e;
+
+            line-height: 1.9;
+
+            font-size: 14px;
+        }
+
+
+        /* =========================================================
+   COMMITTEE
+========================================================= */
+
+        .members {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+
+        .member {
+            padding: 25px 18px;
+
+            text-align: center;
+
+            border:
+                1px solid rgba(239, 169, 56, .13);
+
+            background:
+                linear-gradient(145deg,
+                    #1b0b05,
+                    #080706);
+
+            transition: .35s;
+        }
+
+        .member:hover {
+            transform: translateY(-8px);
+
+            border-color:
+                rgba(240, 175, 61, .5);
+
+            box-shadow:
+                0 15px 45px rgba(0, 0, 0, .4);
+        }
+
+        .member-symbol {
+            width: 57px;
+            height: 57px;
+
+            margin: auto;
+
+            display: grid;
+            place-items: center;
+
+            border-radius: 50%;
+
+            color: #f0b451;
+
+            border:
+                1px solid rgba(239, 170, 59, .25);
+
+            background:
+                radial-gradient(circle,
+                    rgba(225, 83, 13, .16),
+                    transparent);
+        }
+
+        .member h3 {
+            margin-top: 15px;
+            color: #ead5aa;
+            font-size: 15px;
+        }
+
+        .member p {
+            margin-top: 5px;
+            color: #887967;
+            font-size: 11px;
+        }
+
+
+        /* =========================================================
+   LOCATION
+========================================================= */
+
+        .location-section {
+            background:
+                linear-gradient(rgba(7, 4, 2, .92),
+                    rgba(9, 5, 3, .98)),
+                url("images/ramleela-2.jpg") center/cover fixed;
+        }
+
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .location-card {
+            padding: 35px;
+
+            border:
+                1px solid rgba(239, 169, 56, .18);
+
+            background:
+                rgba(11, 5, 3, .74);
+
+            backdrop-filter: blur(10px);
+        }
+
+        .location-card h3 {
+            font-family: var(--serif);
+            color: #f0d5a4;
+            font-size: 29px;
+        }
+
+        .location-card p {
+            margin-top: 14px;
+            color: #aa977d;
+            line-height: 1.8;
+            font-size: 13px;
+        }
+
+        .location-actions {
+            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .map-frame {
+            min-height: 350px;
+
+            position: relative;
+
+            display: grid;
+            place-items: center;
+
+            overflow: hidden;
+
+            border:
+                1px solid rgba(239, 169, 56, .18);
+
+            background:
+                radial-gradient(circle,
+                    rgba(239, 101, 18, .12),
+                    transparent 45%),
+                #090706;
+        }
+
+        .map-frame::before {
+            content: "";
+
+            position: absolute;
+
+            width: 260px;
+            height: 260px;
+
+            border:
+                1px solid rgba(239, 169, 56, .16);
+
+            border-radius: 50%;
+
+            animation:
+                map 5s ease-in-out infinite;
+        }
+
+        .map-symbol {
+            position: relative;
+            z-index: 2;
+
+            font-size: 65px;
+
+            color: #f0b452;
+
+            filter:
+                drop-shadow(0 0 20px rgba(255, 113, 21, .35));
+        }
+
+        .map-text {
+            position: absolute;
+            bottom: 25px;
+            color: #9d8a72;
+            font-size: 12px;
+        }
+
+        @keyframes map {
+
+            0%,
+            100% {
+                transform: scale(.8);
+                opacity: .2;
+            }
+
+            50% {
+                transform: scale(1.25);
+                opacity: .7;
+            }
+        }
+
+
+        /* =========================================================
+   INVITE
+========================================================= */
+
+        .invite-box {
+            padding: 42px;
+
+            border:
+                1px solid rgba(239, 169, 56, .2);
+
+            background:
+                radial-gradient(circle at 80% 20%,
+                    rgba(232, 91, 16, .15),
+                    transparent 32%),
+                linear-gradient(120deg,
+                    #321006,
+                    #090706);
+        }
+
+        .invite-box h2 {
+            font-family: var(--serif);
+            color: #f3d9a9;
+            font-size: 32px;
+        }
+
+        .invite-box p {
+            margin-top: 8px;
+            color: #a38f76;
+            font-size: 13px;
+        }
+
+        .invite-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 22px;
+        }
+
+        .invite-form input {
+            flex: 1;
+
+            min-width: 0;
+
+            padding: 13px 15px;
+
+            border:
+                1px solid rgba(239, 169, 56, .18);
+
+            outline: none;
+
+            background:
+                rgba(0, 0, 0, .35);
+
+            color: #f0dcb7;
+
+            font-family: var(--dev);
+        }
+
+        .invite-form input:focus {
+            border-color: #e5a645;
+
+            box-shadow:
+                0 0 20px rgba(238, 128, 29, .1);
+        }
+
+
+        /* =========================================================
+   DONATION
+========================================================= */
+
+        .donation-box {
+            display: grid;
+
+            grid-template-columns: 1fr auto;
+
+            gap: 35px;
+
+            align-items: center;
+
+            padding: 38px;
+
+            border:
+                1px solid rgba(239, 169, 56, .2);
+
+            background:
+                radial-gradient(circle at 80% 50%,
+                    rgba(230, 94, 16, .09),
+                    transparent 32%),
+                linear-gradient(135deg,
+                    #1c0b05,
+                    #080706);
+        }
+
+        .donation-box h2 {
+            font-family: var(--serif);
+            color: #f1d7a6;
+            font-size: 29px;
+        }
+
+        .donation-box p {
+            margin-top: 10px;
+            color: #a18e76;
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        .upi-box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+        }
+
+        .upi {
+            padding: 10px 13px;
+
+            border:
+                1px dashed rgba(239, 169, 56, .25);
+
+            background:
+                rgba(0, 0, 0, .25);
+
+            color: #e3b968;
+
+            font-size: 12px;
+        }
+
+        .qr {
+            width: 175px;
+            height: 175px;
+
+            padding: 6px;
+
+            background: #fff;
+
+            object-fit: cover;
+
+            box-shadow:
+                0 0 0 1px rgba(239, 169, 56, .2),
+                0 0 45px rgba(232, 91, 16, .1);
+        }
+
+
+        /* =========================================================
+   CONTACT
+========================================================= */
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .contact-card {
+            padding: 25px;
+
+            border:
+                1px solid rgba(239, 169, 56, .13);
+
+            background:
+                rgba(255, 255, 255, .015);
+        }
+
+        .contact-card span {
+            color: #8f7e6b;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-card strong {
+            display: block;
+            margin-top: 8px;
+            color: #e4cfaa;
+            font-size: 14px;
+            word-break: break-word;
+        }
+
+
+        /* =========================================================
+   FINAL CTA
+========================================================= */
+
+        .final {
+            padding: 110px 22px;
+            text-align: center;
+
+            background:
+                radial-gradient(circle at 50% 25%,
+                    rgba(233, 92, 15, .15),
+                    transparent 40%),
+                linear-gradient(180deg,
+                    #260b04,
+                    #060403);
+        }
+
+        .final-box {
+            max-width: 920px;
+            margin: auto;
+
+            padding: 65px 25px;
+
+            border:
+                1px solid rgba(239, 169, 56, .23);
+
+            background:
+                radial-gradient(circle,
+                    rgba(240, 139, 39, .07),
+                    transparent 60%);
+        }
+
+        .final-symbol {
+            color: #ffca63;
+            font-size: 52px;
+
+            text-shadow:
+                0 0 35px rgba(255, 112, 18, .35);
+
+            animation:
+                om 3s ease-in-out infinite;
+        }
+
+        .final h2 {
+            margin-top: 15px;
+
+            font-family: var(--serif);
+
+            font-size:
+                clamp(36px, 6vw, 62px);
+
+            color: #f9dfae;
+        }
+
+        .final p {
+            max-width: 680px;
+            margin: 15px auto 0;
+
+            color: #ad9a81;
+
+            line-height: 1.8;
+
+            font-size: 14px;
+        }
+
+        .final-points {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 25px;
+        }
+
+        .final-points span {
+            padding: 8px 12px;
+
+            color: #d9c39b;
+
+            border:
+                1px solid rgba(239, 169, 56, .15);
+
+            background:
+                rgba(0, 0, 0, .22);
+
+            font-size: 11px;
+
+            transition: .3s;
+        }
+
+        .final-points span:hover {
+            transform: translateY(-3px);
+            border-color: #e8a84b;
+        }
+
+
+        /* =========================================================
+   FOOTER
+========================================================= */
+
+        footer {
+            padding: 48px 22px;
+
+            text-align: center;
+
+            background: #030202;
+
+            border-top:
+                1px solid rgba(239, 169, 56, .10);
+        }
+
+        .footer-brand {
+            font-family: var(--serif);
+            color: #e6b65b;
+            font-size: 24px;
+        }
+
+        footer p {
+            margin-top: 8px;
+            color: #766a5c;
+            font-size: 11px;
+            line-height: 1.7;
+        }
+
+        .footer-links {
+            margin-top: 17px;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+
+            color: #95836e;
+            font-size: 11px;
+        }
+
+        .footer-links a:hover {
+            color: #edb65b;
+        }
+
+
+        /* =========================================================
+   FLOATING BUTTONS
+========================================================= */
+
+        .float-buttons {
+            position: fixed;
+            right: 18px;
+            bottom: 80px;
+
+            z-index: 900;
+
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+
+        .float-btn {
+            width: 48px;
+            height: 48px;
+
+            display: grid;
+            place-items: center;
+
+            border-radius: 50%;
+
+            border:
+                1px solid rgba(255, 207, 116, .22);
+
+            background:
+                rgba(48, 12, 4, .85);
+
+            backdrop-filter: blur(12px);
+
+            color: #ffd47d;
+
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, .35);
+
+            transition: .3s;
+        }
+
+        .float-btn:hover {
+            transform:
+                scale(1.12) translateY(-3px);
+
+            box-shadow:
+                0 0 30px rgba(255, 111, 19, .25);
+        }
+
+
+        /* =========================================================
+   MOBILE NAV
+========================================================= */
+
+        .mobile-nav {
+            display: none;
+
+            position: fixed;
+
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+
+            z-index: 950;
+
+            padding: 8px;
+
+            background:
+                rgba(20, 7, 3, .94);
+
+            backdrop-filter: blur(18px);
+
+            border:
+                1px solid rgba(239, 169, 56, .18);
+        }
+
+        .mobile-nav a {
+            flex: 1;
+            text-align: center;
+            color: #a99579;
+            font-size: 9px;
+        }
+
+        .mobile-nav span {
+            display: block;
+            color: #eab35b;
+            font-size: 16px;
+            margin-bottom: 2px;
+        }
+
+
+        /* =========================================================
+   LIGHTBOX
+========================================================= */
+
+        .lightbox {
+            position: fixed;
+            inset: 0;
+
+            z-index: 9999;
+
+            display: none;
+
+            place-items: center;
+
+            padding: 20px;
+
+            background:
+                rgba(0, 0, 0, .94);
+        }
+
+        .lightbox.show {
+            display: grid;
+        }
+
+        .lightbox img {
+            max-width: 95vw;
+            max-height: 88vh;
+
+            object-fit: contain;
+
+            border:
+                1px solid rgba(239, 169, 56, .3);
+
+            box-shadow:
+                0 30px 100px rgba(0, 0, 0, .8);
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 12px;
+            right: 20px;
+
+            color: #ffd889;
+            font-size: 35px;
+            cursor: pointer;
+        }
+
+
+        /* =========================================================
+   REVEAL
+========================================================= */
+
+        .reveal {
+            opacity: 0;
+
+            transform:
+                translateY(35px) scale(.98);
+
+            filter: blur(3px);
+
+            transition:
+                opacity .9s ease,
+                transform 1s cubic-bezier(.16, 1, .3, 1),
+                filter .9s ease;
+        }
+
+        .reveal.active {
+            opacity: 1;
+
+            transform:
+                translateY(0) scale(1);
+
+            filter: blur(0);
+        }
+
+
+        /* =========================================================
+   RESPONSIVE
+========================================================= */
+
+        @media(max-width:950px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .menu-btn {
+                display: block;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+
+            .path-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .members {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .location-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media(max-width:700px) {
+
+            .hero {
+                min-height: auto;
+            }
+
+            .hero-content {
+                padding:
+                    75px 17px 100px;
+            }
+
+            .hero h1 {
+                font-size: 47px;
+            }
+
+            .section {
+                padding:
+                    72px 17px;
+            }
+
+            .today-wrap {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .donation-box {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .qr {
+                margin: auto;
+            }
+
+            .upi-box {
+                justify-content: center;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .invite-form {
+                flex-direction: column;
+            }
+
+            .mobile-nav {
+                display: flex;
+            }
+        }
+
+        @media(max-width:480px) {
+
+            .logo-text span {
+                display: none;
+            }
+
+            .logo-text strong {
+                font-size: 11px;
+            }
+
+            .hero h1 {
+                font-size: 41px;
+            }
+
+            .countdown {
+                gap: 4px;
+            }
+
+            .time-box strong {
+                font-size: 20px;
+            }
+
+            .path-grid,
+            .members {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .today-side {
+                grid-template-columns: 1fr;
+            }
+
+            .schedule-row {
+                grid-template-columns: 75px 1fr;
+                gap: 10px;
+            }
+
+            .schedule-day {
+                grid-column: 2;
+            }
+
+            .float-buttons {
+                right: 10px;
+                bottom: 72px;
+            }
+        }
+
+
+        /* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+        @media(prefers-reduced-motion:reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+                transition-duration: .01ms !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- =====================================================
+     LOADER
+===================================================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-om">ॐ</div>
+
+        <div class="loader-title">
+            ॥ जय श्री राम ॥
+        </div>
+
+        <div class="loader-line"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+     TICKER
+===================================================== -->
+
+    <div class="ticker">
+
+        <div class="ticker-track">
+
+            ॥ जय श्री राम ॥ &nbsp;&nbsp; • &nbsp;&nbsp;
+
+            रामलीला महोत्सव 2026 &nbsp;&nbsp; • &nbsp;&nbsp;
+
+            11 अक्टूबर से 21 अक्टूबर 2026 &nbsp;&nbsp; • &nbsp;&nbsp;
+
+            गनवारा, आजमगढ़ &nbsp;&nbsp; • &nbsp;&nbsp;
+
+            परिवार सहित सादर आमंत्रित &nbsp;&nbsp; • &nbsp;&nbsp;
+
+            ॥ जय श्री राम ॥
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+     NAV
+===================================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-inner">
+
+            <a href="#home" class="logo">
+
+                <div class="logo-symbol">
+                    ॐ
+                </div>
+
+                <div class="logo-text">
+
+                    <strong>
+                        श्री दुर्गा पूजा व रामजानकी
+                    </strong>
+
+                    <span>
+                        रामलीला समिति, गनवारा
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="#home">होम</a>
+                <a href="#today">आज की लीला</a>
+                <a href="#schedule">कार्यक्रम</a>
+                <a href="#gallery">झलकियाँ</a>
+                <a href="#location">स्थान</a>
+                <a href="#contact">संपर्क</a>
+
+            </nav>
+
+
+            <button class="menu-btn" onclick="toggleMenu()">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+     HERO
+===================================================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div>
+
+                <div class="hero-kicker">
+
+                    श्री दुर्गा पूजा व रामजानकी
+                    रामलीला समिति
+
+                </div>
+
+
+                <h1>
+
+                    रामलीला
+
+                    <span>
+                        महोत्सव 2026
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    गनवारा, आजमगढ़ की पावन धरती पर
+                    रामकथा, भक्ति, संस्कृति और परंपरा
+                    के भव्य उत्सव में आपका हार्दिक स्वागत है।
+                    परिवार सहित आइए और श्रीराम की लीला के
+                    साक्षी बनिए।
+
+                </p>
+
+
+                <div class="hero-info">
+
+                    <div class="info-pill">
+                        📅 11 अक्टूबर – 21 अक्टूबर 2026
+                    </div>
+
+                    <div class="info-pill">
+                        🕕 सायं 6:00 बजे
+                    </div>
+
+                    <div class="info-pill">
+                        📍 गनवारा, आजमगढ़
+                    </div>
+
+                </div>
+
+
+                <div class="hero-actions">
+
+                    <a href="#schedule" class="btn btn-bhagwa">
+
+                        ✦ पूरा कार्यक्रम देखें
+
+                    </a>
+
+                    <a href="#location" class="btn btn-dark">
+
+                        📍 कैसे पहुँचें
+
+                    </a>
+
+                    <a href="https://wa.me/919450792125?text=॥%20जय%20श्री%20राम%20॥%20रामलीला%20महोत्सव%202026%20में%20आने%20का%20निमंत्रण%20है।"
+                        target="_blank" class="btn btn-dark">
+
+                        WhatsApp निमंत्रण
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- COUNTDOWN -->
+
+            <div class="hero-card">
+
+                <div class="card-label">
+                    महोत्सव प्रारंभ होने में
+                </div>
+
+                <div class="card-title">
+                    रामलीला महोत्सव 2026
+                </div>
+
+                <div class="card-sub">
+                    11 अक्टूबर 2026 • सायं 6:00 बजे
+                </div>
+
+
+                <div class="countdown">
+
+                    <div class="time-box">
+                        <strong id="days">00</strong>
+                        <span>दिन</span>
+                    </div>
+
+                    <div class="time-box">
+                        <strong id="hours">00</strong>
+                        <span>घंटे</span>
+                    </div>
+
+                    <div class="time-box">
+                        <strong id="minutes">00</strong>
+                        <span>मिनट</span>
+                    </div>
+
+                    <div class="time-box">
+                        <strong id="seconds">00</strong>
+                        <span>सेकंड</span>
+                    </div>
+
+                </div>
+
+
+                <div class="next-program">
+
+                    <small>
+                        प्रथम दिवस
+                    </small>
+
+                    <strong>
+                        नारद मोह
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+    <section>
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    आपका रामलीला अनुभव
+                </div>
+
+                <h2>
+                    इस बार केवल वेबसाइट मत देखिए
+                </h2>
+
+                <p>
+                    कार्यक्रम देखिए, परिवार को बुलाइए और
+                    रामलीला स्थल पर आकर इस महोत्सव का
+                    हिस्सा बनिए।
+                </p>
+
+            </div>
+
+
+            <div class="path-grid">
+
+                <div class="path-card reveal">
+
+                    <div class="path-number">
+                        01
+                    </div>
+
+                    <h3>
+                        आज की लीला
+                    </h3>
+
+                    <p>
+                        आज कौन सी प्रस्तुति है,
+                        तुरंत जानिए।
+                    </p>
+
+                    <a href="#today" class="btn btn-dark" style="margin-top:18px">
+
+                        देखें →
+
+                    </a>
+
+                </div>
+
+
+                <div class="path-card reveal">
+
+                    <div class="path-number">
+                        02
+                    </div>
+
+                    <h3>
+                        पूरा कार्यक्रम
+                    </h3>
+
+                    <p>
+                        11 दिनों की सभी लीलाएँ
+                        एक जगह देखें।
+                    </p>
+
+                    <a href="#schedule" class="btn btn-dark" style="margin-top:18px">
+
+                        कार्यक्रम →
+
+                    </a>
+
+                </div>
+
+
+                <div class="path-card reveal">
+
+                    <div class="path-number">
+                        03
+                    </div>
+
+                    <h3>
+                        परिवार को बुलाएँ
+                    </h3>
+
+                    <p>
+                        WhatsApp से तुरंत
+                        निमंत्रण भेजें।
+                    </p>
+
+                    <a href="#invite" class="btn btn-dark" style="margin-top:18px">
+
+                        निमंत्रण →
+
+                    </a>
+
+                </div>
+
+
+                <div class="path-card reveal">
+
+                    <div class="path-number">
+                        04
+                    </div>
+
+                    <h3>
+                        गनवारा पहुँचें
+                    </h3>
+
+                    <p>
+                        Google Maps से रास्ता
+                        सीधे देखें।
+                    </p>
+
+                    <a href="#location" class="btn btn-dark" style="margin-top:18px">
+
+                        रास्ता →
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     TODAY
+===================================================== -->
+
+    <section id="today">
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    आज की विशेष प्रस्तुति
+                </div>
+
+                <h2>
+                    आज कौन सी लीला?
+                </h2>
+
+                <p>
+                    तारीख के अनुसार यह भाग अपने आप
+                    अपडेट होगा।
+                </p>
+
+            </div>
+
+
+            <div class="today-wrap">
+
+                <div class="today-card reveal">
+
+                    <div class="today-date" id="todayDate">
+
+                        रामलीला महोत्सव
+
+                    </div>
+
+                    <h3 id="todayTitle">
+                        नारद मोह
+                    </h3>
+
+                    <p id="todayDescription">
+
+                        श्रीराम की लीला के इस भव्य आयोजन
+                        में आपका हार्दिक स्वागत है।
+
+                    </p>
+
+                    <div class="today-badge">
+
+                        ॥ परिवार सहित सादर आमंत्रित ॥
+
+                    </div>
+
+                </div>
+
+
+                <div class="today-side">
+
+                    <div class="mini-card reveal">
+
+                        <span>समय</span>
+
+                        <strong>
+                            सायं 6:00 बजे
+                        </strong>
+
+                    </div>
+
+                    <div class="mini-card reveal">
+
+                        <span>स्थान</span>
+
+                        <strong>
+                            गनवारा, आजमगढ़
+                        </strong>
+
+                    </div>
+
+                    <div class="mini-card reveal">
+
+                        <span>आयोजन</span>
+
+                        <strong>
+                            श्री दुर्गा पूजा व रामजानकी
+                            रामलीला समिति
+                        </strong>
+
+                    </div>
+
+                    <div class="mini-card reveal">
+
+                        <span>विशेष</span>
+
+                        <strong>
+                            परिवार एवं मित्रों सहित आइए
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     SCHEDULE
+===================================================== -->
+
+    <section id="schedule">
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    11 दिवसीय रामकथा
+                </div>
+
+                <h2>
+                    पूरा कार्यक्रम
+                </h2>
+
+                <p>
+                    11 अक्टूबर से 21 अक्टूबर 2026
+                    तक की कार्यक्रम सूची।
+                </p>
+
+            </div>
+
+
+            <div class="schedule" id="scheduleList">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     GALLERY
+===================================================== -->
+
+    <section id="gallery">
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    रामलीला की झलक
+                </div>
+
+                <h2>
+                    देखिए, महसूस कीजिए
+                </h2>
+
+                <p>
+                    रामलीला की कुछ यादगार तस्वीरें।
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+
+                    <img src="images/ramleela-1.jpg" alt="रामलीला महोत्सव">
+
+                    <div class="gallery-overlay">
+                        रामलीला महोत्सव
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+
+                    <img src="images/ramleela-2.jpg" alt="रामलीला मंच">
+
+                    <div class="gallery-overlay">
+                        भव्य रामलीला मंच
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+
+                    <img src="images/ramleela-3.jpg" alt="रामलीला प्रस्तुति">
+
+                    <div class="gallery-overlay">
+                        रामलीला प्रस्तुति
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+
+                    <img src="images/ramleela-4.jpg" alt="रामलीला">
+
+                    <div class="gallery-overlay">
+                        भक्तिमय वातावरण
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+
+                    <img src="images/ramleela-5.jpg" alt="रामलीला">
+
+                    <div class="gallery-overlay">
+                        सांस्कृतिक प्रस्तुति
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-item reveal" onclick="openLightbox(this)">
+
+                    <img src="images/ramleela-6.jpg" alt="रामलीला">
+
+                    <div class="gallery-overlay">
+                        रामकथा की झलक
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     VIDEO
+===================================================== -->
+
+    <section>
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    वीडियो
+                </div>
+
+                <h2>
+                    रामलीला को चलते हुए देखिए
+                </h2>
+
+            </div>
+
+
+            <div class="video-grid">
+
+                <div class="video-card reveal">
+
+                    <video controls preload="metadata" poster="images/ramleela-1.jpg">
+
+                        <source src="videos/ramleela-1.mp4" type="video/mp4">
+
+                    </video>
+
+                    <div class="video-title">
+                        रामलीला प्रस्तुति — 01
+                    </div>
+
+                </div>
+
+
+                <div class="video-card reveal">
+
+                    <video controls preload="metadata" poster="images/ramleela-2.jpg">
+
+                        <source src="videos/ramleela-2.mp4" type="video/mp4">
+
+                    </video>
+
+                    <div class="video-title">
+                        रामलीला प्रस्तुति — 02
+                    </div>
+
+                </div>
+
+
+                <div class="video-card reveal">
+
+                    <video controls preload="metadata" poster="images/ramleela-3.jpg">
+
+                        <source src="videos/ramleela-3.mp4" type="video/mp4">
+
+                    </video>
+
+                    <div class="video-title">
+                        रामलीला प्रस्तुति — 03
+                    </div>
+
+                </div>
+
+
+                <div class="video-card reveal">
+
+                    <video controls preload="metadata" poster="images/ramleela-4.jpg">
+
+                        <source src="videos/ramleela-4.mp4" type="video/mp4">
+
+                    </video>
+
+                    <div class="video-title">
+                        रामलीला प्रस्तुति — 04
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     YOUTUBE
+===================================================== -->
+
+    <section>
+
+        <div class="section">
+
+            <div class="legacy-box reveal">
+
+                <div class="legacy-symbol">
+                    ▶
+                </div>
+
+                <h2>
+                    रामलीला से जुड़े रहिए
+                </h2>
+
+                <p>
+                    YouTube पर रामलीला से जुड़े
+                    वीडियो और प्रस्तुतियाँ देखें।
+                </p>
+
+                <div class="hero-actions" style="justify-content:center">
+
+                    <a href="https://www.youtube.com/@amitsinghchandel" target="_blank" class="btn btn-bhagwa">
+
+                        YouTube चैनल देखें
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     FOUNDER
+===================================================== -->
+
+    <section class="legacy">
+
+        <div class="section">
+
+            <div class="legacy-box reveal">
+
+                <div class="legacy-symbol">
+                    ॐ
+                </div>
+
+                <h2>
+                    संस्थापक को नमन
+                </h2>
+
+                <p>
+
+                    इस धार्मिक एवं सांस्कृतिक परंपरा
+                    की नींव रखने वाले
+
+                    <strong style="color:#f0b451">
+                        स्वर्गीय रामपलट सिंह
+                    </strong>
+
+                    को सादर नमन।
+
+                    उनकी श्रद्धा, सेवा और सांस्कृतिक भावना
+                    रामलीला की इस परंपरा को निरंतर
+                    आगे बढ़ाती रहे।
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     COMMITTEE
+===================================================== -->
+
+    <section>
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    आयोजन समिति
+                </div>
+
+                <h2>
+                    समिति के प्रमुख सदस्य
+                </h2>
+
+            </div>
+
+
+            <div class="members">
+
+                <div class="member reveal">
+
+                    <div class="member-symbol">
+                        ॐ
+                    </div>
+
+                    <h3>
+                        स्वर्गीय रामपलट सिंह
+                    </h3>
+
+                    <p>
+                        संस्थापक
+                    </p>
+
+                </div>
+
+
+                <div class="member reveal">
+
+                    <div class="member-symbol">
+                        श्री
+                    </div>
+
+                    <h3>
+                        रामफेर यादव
+                    </h3>
+
+                    <p>
+                        प्रबंधक
+                    </p>
+
+                </div>
+
+
+                <div class="member reveal">
+
+                    <div class="member-symbol">
+                        जय
+                    </div>
+
+                    <h3>
+                        रामलाल मौर्य
+                    </h3>
+
+                    <p>
+                        अध्यक्ष
+                    </p>
+
+                </div>
+
+
+                <div class="member reveal">
+
+                    <div class="member-symbol">
+                        ॐ
+                    </div>
+
+                    <h3>
+                        अमित कुमार सिंह (रिंकू)
+                    </h3>
+
+                    <p>
+                        कोषाध्यक्ष
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     INVITE
+===================================================== -->
+
+    <section id="invite">
+
+        <div class="section">
+
+            <div class="invite-box reveal">
+
+                <h2>
+                    ❤️ किसी अपने को भी बुलाइए
+                </h2>
+
+                <p>
+                    अपना नाम लिखिए और एक क्लिक में
+                    WhatsApp पर निमंत्रण भेजिए।
+                </p>
+
+
+                <div class="invite-form">
+
+                    <input id="visitorName" type="text" placeholder="अपना नाम लिखें">
+
+                    <button class="btn btn-bhagwa" onclick="sendInvite()">
+
+                        WhatsApp निमंत्रण भेजें
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     LOCATION
+===================================================== -->
+
+    <section class="location-section" id="location">
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    आयोजन स्थल
+                </div>
+
+                <h2>
+                    गनवारा आइए
+                </h2>
+
+                <p>
+                    जहाँ रामकथा मंच पर जीवंत होती है।
+                </p>
+
+            </div>
+
+
+            <div class="location-grid">
+
+                <div class="location-card reveal">
+
+                    <h3>
+                        रामलीला स्थल
+                    </h3>
+
+                    <p>
+
+                        📍 गनवारा,
+                        आजमगढ़,
+                        उत्तर प्रदेश
+
+                    </p>
+
+                    <p>
+
+                        📅 11 अक्टूबर –
+                        21 अक्टूबर 2026
+
+                        <br>
+
+                        🕕 सायं 6:00 बजे
+
+                    </p>
+
+
+                    <div class="location-actions">
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Ganwara%2C%20Azamgarh%2C%20Uttar%20Pradesh"
+                            target="_blank" class="btn btn-bhagwa">
+
+                            📍 Google Maps
+
+                        </a>
+
+                        <a href="tel:9450792125" class="btn btn-dark">
+
+                            📞 कॉल करें
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="map-frame reveal">
+
+                    <div class="map-symbol">
+                        📍
+                    </div>
+
+                    <div class="map-text">
+                        Ganwara, Azamgarh, Uttar Pradesh
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     DONATION
+===================================================== -->
+
+    <section>
+
+        <div class="section">
+
+            <div class="donation-box reveal">
+
+                <div>
+
+                    <h2>
+                        रामलीला में सहयोग करें
+                    </h2>
+
+                    <p>
+
+                        धार्मिक एवं सांस्कृतिक आयोजन
+                        को सहयोग देने के इच्छुक श्रद्धालु
+                        समिति से संपर्क कर सकते हैं।
+
+                    </p>
+
+
+                    <div class="upi-box">
+
+                        <div class="upi" id="upiText">
+
+                            YOUR-UPI-ID@upi
+
+                        </div>
+
+                        <button class="btn btn-dark" onclick="copyUPI()">
+
+                            UPI कॉपी करें
+
+                        </button>
+
+                    </div>
+
+                    <p style="font-size:10px">
+
+                        * यहाँ अपना वास्तविक UPI ID डालें।
+
+                    </p>
+
+                </div>
+
+
+                <img src="images/donation-qr.jpg" class="qr" alt="Donation QR">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     CONTACT
+===================================================== -->
+
+    <section id="contact">
+
+        <div class="section">
+
+            <div class="section-head reveal">
+
+                <div class="section-kicker">
+                    संपर्क
+                </div>
+
+                <h2>
+                    हमसे जुड़ें
+                </h2>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card reveal">
+
+                    <span>
+                        फोन
+                    </span>
+
+                    <strong>
+                        <a href="tel:9450792125">
+                            9450792125
+                        </a>
+                    </strong>
+
+                </div>
+
+
+                <div class="contact-card reveal">
+
+                    <span>
+                        WhatsApp
+                    </span>
+
+                    <strong>
+                        <a href="https://wa.me/919450792125" target="_blank">
+
+                            WhatsApp पर संपर्क करें
+
+                        </a>
+                    </strong>
+
+                </div>
+
+
+                <div class="contact-card reveal">
+
+                    <span>
+                        स्थान
+                    </span>
+
+                    <strong>
+                        गनवारा, आजमगढ़, उत्तर प्रदेश
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+    <section class="final">
+
+        <div class="final-box reveal">
+
+            <div class="final-symbol">
+                ॥ श्री राम ॥
+            </div>
+
+            <h2>
+                इस बार रामलीला में जरूर आइए
+            </h2>
+
+            <p>
+
+                अपने परिवार और मित्रों के साथ
+                गनवारा की पावन धरती पर
+                रामकथा के इस भव्य आयोजन का
+                हिस्सा बनिए।
+
+            </p>
+
+
+            <div class="final-points">
+
+                <span>
+                    11 अक्टूबर 2026
+                </span>
+
+                <span>
+                    21 अक्टूबर 2026 तक
+                </span>
+
+                <span>
+                    सायं 6:00 बजे
+                </span>
+
+                <span>
+                    गनवारा, आजमगढ़
+                </span>
+
+            </div>
+
+
+            <div class="hero-actions" style="justify-content:center">
+
+                <a href="https://wa.me/919450792125?text=॥%20जय%20श्री%20राम%20॥%20रामलीला%20महोत्सव%202026%20में%20आने%20का%20निमंत्रण%20है।"
+                    target="_blank" class="btn btn-bhagwa">
+
+                    WhatsApp से जुड़ें
+
+                </a>
+
+                <a href="tel:9450792125" class="btn btn-dark">
+
+                    📞 संपर्क करें
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+     FOOTER
+===================================================== -->
+
+    <footer>
+
+        <div class="footer-brand">
+            ॥ जय श्री राम ॥
+        </div>
+
+        <p>
+            श्री दुर्गा पूजा व रामजानकी रामलीला समिति,
+            गनवारा, आजमगढ़
+        </p>
+
+        <p>
+            संस्थापक:
+            स्वर्गीय रामपलट सिंह
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#today">आज की लीला</a>
+
+            <a href="#schedule">कार्यक्रम</a>
+
+            <a href="#gallery">Gallery</a>
+
+            <a href="#location">Location</a>
+
+            <a href="mailto:saurabhmaurya9001@gmail.com">
+                Saurabh Tech
+            </a>
+
+        </div>
+
+        <p style="margin-top:20px">
+
+            © 2026 श्री दुर्गा पूजा व रामजानकी
+            रामलीला समिति • Website by Saurabh Tech
+
+        </p>
+
+    </footer>
+
+
+    <!-- =====================================================
+     FLOATING BUTTONS
+===================================================== -->
+
+    <div class="float-buttons">
+
+        <a class="float-btn" href="https://wa.me/919450792125" target="_blank" title="WhatsApp">
+
+            WA
+
+        </a>
+
+        <a class="float-btn" href="tel:9450792125" title="Call">
+
+            ☎
+
+        </a>
+
+    </div>
+
+
+    <!-- =====================================================
+     MOBILE NAV
+===================================================== -->
+
+    <div class="mobile-nav">
+
+        <a href="#home">
+            <span>⌂</span>
+            Home
+        </a>
+
+        <a href="#today">
+            <span>✦</span>
+            आज
+        </a>
+
+        <a href="#schedule">
+            <span>☰</span>
+            कार्यक्रम
+        </a>
+
+        <a href="#gallery">
+            <span>▣</span>
+            Gallery
+        </a>
+
+        <a href="#location">
+            <span>⌖</span>
+            स्थान
+        </a>
+
+    </div>
+
+
+    <!-- =====================================================
+     LIGHTBOX
+===================================================== -->
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+
+        <div class="lightbox-close" onclick="closeLightbox()">
+
+            ×
+
+        </div>
+
+        <img id="lightboxImage" src="" alt="Ramleela">
+
+    </div>
+
+
+    <script>
+
+        /* =========================================================
+           PROGRAM DATA
+        ========================================================= */
+
+        const programs = [
+
+            {
+                date: "11 अक्टूबर 2026",
+                iso: "2026-10-11",
+                title: "नारद मोह"
+            },
+
+            {
+                date: "12 अक्टूबर 2026",
+                iso: "2026-10-12",
+                title: "राम जन्म एवं ताड़का वध"
+            },
+
+            {
+                date: "13 अक्टूबर 2026",
+                iso: "2026-10-13",
+                title: "फूलवारी एवं धनुष यज्ञ"
+            },
+
+            {
+                date: "14 अक्टूबर 2026",
+                iso: "2026-10-14",
+                title: "राम का राज्य तिलक एवं राम वनवास"
+            },
+
+            {
+                date: "15 अक्टूबर 2026",
+                iso: "2026-10-15",
+                title: "चित्रकूट में राम-भरत मिलाप"
+            },
+
+            {
+                date: "16 अक्टूबर 2026",
+                iso: "2026-10-16",
+                title: "सीता हरण"
+            },
+
+            {
+                date: "17 अक्टूबर 2026",
+                iso: "2026-10-17",
+                title: "राम-सुग्रीव मित्रता"
+            },
+
+            {
+                date: "18 अक्टूबर 2026",
+                iso: "2026-10-18",
+                title: "सीता की खोज एवं लंका दहन"
+            },
+
+            {
+                date: "19 अक्टूबर 2026",
+                iso: "2026-10-19",
+                title: "अंगद-रावण संवाद एवं लक्ष्मण शक्ति"
+            },
+
+            {
+                date: "20 अक्टूबर 2026",
+                iso: "2026-10-20",
+                title: "कुंभकरण वध एवं मेघनाथ वध"
+            },
+
+            {
+                date: "21 अक्टूबर 2026",
+                iso: "2026-10-21",
+                title: "मेला एवं रात्रि में सोखावती, अहिरावण वध एवं भरत मिलाप"
+            }
+
+        ];
+
+
+        /* =========================================================
+           SCHEDULE
+        ========================================================= */
+
+        const list =
+            document.getElementById("scheduleList");
+
+        const weekdays = [
+            "रविवार",
+            "सोमवार",
+            "मंगलवार",
+            "बुधवार",
+            "गुरुवार",
+            "शुक्रवार",
+            "शनिवार"
+        ];
+
+        programs.forEach(item => {
+
+            const d =
+                new Date(
+                    item.iso +
+                    "T18:00:00+05:30"
+                );
+
+            const row =
+                document.createElement("div");
+
+            row.className =
+                "schedule-row reveal";
+
+            row.innerHTML = `
+
+        <div class="schedule-date">
+            ${item.date}
+        </div>
+
+        <div class="schedule-title">
+            ${item.title}
+        </div>
+
+        <div class="schedule-day">
+            ${weekdays[d.getDay()]}
+        </div>
+
+    `;
+
+            list.appendChild(row);
+
+        });
+
+
+        /* =========================================================
+           COUNTDOWN
+        ========================================================= */
+
+        const eventStart =
+            new Date(
+                "2026-10-11T18:00:00+05:30"
+            );
+
+        function countdown() {
+
+            let diff =
+                eventStart -
+                new Date();
+
+            if (diff <= 0) {
+
+                ["days", "hours", "minutes", "seconds"]
+                    .forEach(id => {
+                        document.getElementById(id)
+                            .textContent = "00";
+                    });
+
+                return;
+            }
+
+            const days =
+                Math.floor(
+                    diff / 86400000
+                );
+
+            diff %= 86400000;
+
+            const hours =
+                Math.floor(
+                    diff / 3600000
+                );
+
+            diff %= 3600000;
+
+            const minutes =
+                Math.floor(
+                    diff / 60000
+                );
+
+            const seconds =
+                Math.floor(
+                    (diff % 60000) / 1000
+                );
+
+            document.getElementById("days")
+                .textContent =
+                String(days).padStart(2, "0");
+
+            document.getElementById("hours")
+                .textContent =
+                String(hours).padStart(2, "0");
+
+            document.getElementById("minutes")
+                .textContent =
+                String(minutes).padStart(2, "0");
+
+            document.getElementById("seconds")
+                .textContent =
+                String(seconds).padStart(2, "0");
+
+        }
+
+        countdown();
+
+        setInterval(
+            countdown,
+            1000
+        );
+
+
+        /* =========================================================
+           TODAY
+        ========================================================= */
+
+        function todayProgram() {
+
+            const now =
+                new Date();
+
+            const today =
+                now.toLocaleDateString(
+                    "en-CA",
+                    {
+                        timeZone: "Asia/Kolkata"
+                    }
+                );
+
+            const current =
+                programs.find(
+                    x => x.iso === today
+                );
+
+            const next =
+                programs.find(
+                    x =>
+                        new Date(
+                            x.iso +
+                            "T18:00:00+05:30"
+                        ) > now
+                );
+
+            const date =
+                document.getElementById(
+                    "todayDate"
+                );
+
+            const title =
+                document.getElementById(
+                    "todayTitle"
+                );
+
+            const desc =
+                document.getElementById(
+                    "todayDescription"
+                );
+
+            if (current) {
+
+                date.textContent =
+                    current.date;
+
+                title.textContent =
+                    current.title;
+
+                desc.textContent =
+                    "आज की रामलीला प्रस्तुति के लिए परिवार सहित गनवारा आइए।";
+
+            }
+            else if (next) {
+
+                date.textContent =
+                    "अगली प्रस्तुति • " +
+                    next.date;
+
+                title.textContent =
+                    next.title;
+
+                desc.textContent =
+                    "अगली लीला के लिए परिवार एवं मित्रों सहित सादर आमंत्रित हैं।";
+
+            }
+
+        }
+
+        todayProgram();
+
+
+        /* =========================================================
+           REVEAL
+        ========================================================= */
+
+        const observer =
+            new IntersectionObserver(
+                entries => {
+
+                    entries.forEach(entry => {
+
+                        if (entry.isIntersecting) {
+
+                            entry.target
+                                .classList
+                                .add("active");
+
+                            observer
+                                .unobserve(
+                                    entry.target
+                                );
+
+                        }
+
+                    });
+
+                },
+                {
+                    threshold: .10
+                }
+            );
+
+        document
+            .querySelectorAll(".reveal")
+            .forEach(el => {
+                observer.observe(el);
+            });
+
+
+        /* =========================================================
+           EMBERS
+        ========================================================= */
+
+        (function () {
+
+            const max =
+                window.innerWidth < 600
+                    ? 10
+                    : 20;
+
+            function ember() {
+
+                if (
+                    document.hidden ||
+                    document.querySelectorAll(
+                        ".ram-particle"
+                    ).length >= max
+                ) {
+                    return;
+                }
+
+                const p =
+                    document.createElement("span");
+
+                p.className =
+                    "ram-particle";
+
+                p.style.left =
+                    Math.random() * 100 + "vw";
+
+                p.style.setProperty(
+                    "--moveX",
+                    ((Math.random() - .5) * 180) + "px"
+                );
+
+                const size =
+                    2 + Math.random() * 3;
+
+                p.style.width =
+                    size + "px";
+
+                p.style.height =
+                    size + "px";
+
+                const duration =
+                    7 + Math.random() * 8;
+
+                p.style.animationDuration =
+                    duration + "s";
+
+                document.body.appendChild(p);
+
+                setTimeout(
+                    () => {
+                        p.remove();
+                    },
+                    duration * 1000
+                );
+
+            }
+
+            setInterval(
+                ember,
+                700
+            );
+
+        })();
+
+
+        /* =========================================================
+           WHATSAPP
+        ========================================================= */
+
+        function sendInvite() {
+
+            const name =
+                document
+                    .getElementById(
+                        "visitorName"
+                    )
+                    .value
+                    .trim();
+
+            const visitor =
+                name ||
+                "मेरे प्रिय मित्र";
+
+            const message =
+
+                `॥ जय श्री राम ॥
+
+${visitor} की ओर से आपको सादर निमंत्रण 🙏
+
+श्री दुर्गा पूजा व रामजानकी रामलीला समिति,
+गनवारा, आजमगढ़
+
+द्वारा आयोजित
+
+🔥 रामलीला महोत्सव 2026 🔥
+
+📅 11 अक्टूबर से 21 अक्टूबर 2026
+🕕 सायं 6:00 बजे
+📍 गनवारा, आजमगढ़
+
+परिवार एवं मित्रों सहित जरूर आइए।
+
+॥ श्री राम ॥`;
+
+            window.open(
+                "https://wa.me/?text=" +
+                encodeURIComponent(message),
+                "_blank"
+            );
+
+        }
+
+
+        /* =========================================================
+           UPI
+        ========================================================= */
+
+        function copyUPI() {
+
+            const text =
+                document
+                    .getElementById("upiText")
+                    .textContent
+                    .trim();
+
+            navigator.clipboard
+                .writeText(text)
+                .then(() => {
+                    alert(
+                        "UPI ID कॉपी हो गई।"
+                    );
+                })
+                .catch(() => {
+                    alert(
+                        "UPI ID: " + text
+                    );
+                });
+
+        }
+
+
+        /* =========================================================
+           LIGHTBOX
+        ========================================================= */
+
+        function openLightbox(item) {
+
+            const img =
+                item.querySelector("img");
+
+            document
+                .getElementById(
+                    "lightboxImage"
+                )
+                .src =
+                img.src;
+
+            document
+                .getElementById(
+                    "lightbox"
+                )
+                .classList
+                .add("show");
+
+            document.body.style.overflow =
+                "hidden";
+        }
+
+        function closeLightbox() {
+
+            document
+                .getElementById(
+                    "lightbox"
+                )
+                .classList
+                .remove("show");
+
+            document.body.style.overflow =
+                "";
+        }
+
+
+        /* =========================================================
+           MOBILE MENU
+        ========================================================= */
+
+        function toggleMenu() {
+
+            const nav =
+                document.querySelector(
+                    ".nav-links"
+                );
+
+            if (
+                getComputedStyle(nav)
+                    .display === "none"
+            ) {
+
+                nav.style.display = "flex";
+
+                nav.style.position = "absolute";
+
+                nav.style.top = "70px";
+
+                nav.style.left = "10px";
+
+                nav.style.right = "10px";
+
+                nav.style.padding = "20px";
+
+                nav.style.flexDirection = "column";
+
+                nav.style.background =
+                    "rgba(25,7,3,.97)";
+
+                nav.style.border =
+                    "1px solid rgba(239,169,56,.22)";
+
+                nav.style.backdropFilter =
+                    "blur(20px)";
+
+            }
+            else {
+
+                nav.style.display = "none";
+
+            }
+
+        }
+
+
+        /* =========================================================
+           SCROLL PROGRESS
+        ========================================================= */
+
+        const progress =
+            document.createElement("div");
+
+        progress.style.position = "fixed";
+        progress.style.top = "0";
+        progress.style.left = "0";
+        progress.style.height = "2px";
+        progress.style.width = "0%";
+        progress.style.zIndex = "10000";
+
+        progress.style.background =
+            "linear-gradient(90deg,#8d2708,#ff761c,#ffe49b,#e14c0a)";
+
+        progress.style.boxShadow =
+            "0 0 12px rgba(255,104,17,.6)";
+
+        document.body.appendChild(
+            progress
+        );
+
+        window.addEventListener(
+            "scroll",
+            () => {
+
+                const total =
+                    document.documentElement
+                        .scrollHeight -
+                    window.innerHeight;
+
+                const percent =
+                    total > 0
+                        ? window.scrollY / total * 100
+                        : 0;
+
+                progress.style.width =
+                    percent + "%";
+
+            },
+            {
+                passive: true
+            }
+        );
+
+
+        /* =========================================================
+           LOADER
+        ========================================================= */
+
+        window.addEventListener(
+            "load",
+            () => {
+
+                setTimeout(
+                    () => {
+                        document
+                            .getElementById(
+                                "loader"
+                            )
+                            .classList
+                            .add("hide");
+                    },
+                    800
+                );
+
+            }
+        );
+
+    </script>
+
+</body>
+
+</html>
